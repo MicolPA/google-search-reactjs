@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState } from 'react';
 
 const ResultContext = createContext();
 
-const baseUrl = 'https://google-search3.p.rapidapi.com/api/v1';
+const baseUrl = 'https://google-search72.p.rapidapi.com/search';
 
 export const ResultContextProvider = ({ children }) => {
     const [results, setResults] = useState([]);
@@ -19,7 +19,7 @@ export const ResultContextProvider = ({ children }) => {
                 'X-User-Agent': 'desktop',
                 // 'X-Proxy-Location': 'EU',
                 'X-RapidAPI-Key': process.env.REACT_APP_GOOGLE_API_KEY,
-                'X-RapidAPI-Host': 'google-search3.p.rapidapi.com'
+                'X-RapidAPI-Host': 'google-search72.p.rapidapi.com'
             }
         });
 
