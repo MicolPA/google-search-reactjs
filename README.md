@@ -1,6 +1,6 @@
 # Search Engine using ReactJS and Google API
 
-Demo URL: https://rudok-search.netlify.app
+<!-- Demo URL: https://rudok-search.netlify.app -->
 
 ![image](https://user-images.githubusercontent.com/23767983/175787835-8264f288-07a1-40f0-8212-ddf3a83c5e41.png)
 
